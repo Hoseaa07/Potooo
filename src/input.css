@@ -32,18 +32,3 @@ body {
   transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8;
 }
 
-
-header {
-  position: relative;
-  width: 100%;
-  z-index: 1000; /* Pastikan header berada di atas elemen lainnya */
-}
-
-.navbar-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white; /* Atur warna latar belakang sesuai kebutuhan */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek visual */
-}

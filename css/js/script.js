@@ -1,14 +1,14 @@
 // Navbar Fixed
-// window.onscroll = function () {
-//     const header = document.querySelector('header');
-//     const fixedNav = header.offsetTop;
+window.onscroll = function () {
+    const header = document.querySelector('header');
+    const fixedNav = header.offsetTop;
 
-//     if (document.documentElement.scrollTop > fixedNav) {
-//         header.classList.add('navbar-fixed')
-//     } else {
-//         header.classList.remove('navbar-fixed')
-//     }
-// }
+    if (document.documentElement.scrollTop > fixedNav) {
+        header.classList.add('navbar-fixed')
+    } else {
+        header.classList.remove('navbar-fixed')
+    }
+}
 
 // Hamburger Menu
 const hamburger = document.querySelector('#hamburger');
