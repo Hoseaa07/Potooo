@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow: hidden !important;
+}
 
 body {
   font-family: "Inter", sans-serif;
