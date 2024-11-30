@@ -5,13 +5,14 @@
 body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+  padding-top: 60px;
 }
 
 header {
   position: relative;
   width: 100%;
   z-index: 1000; /* Pastikan header berada di atas elemen lainnya */
-  padding-top: 60px;
+  
 }
 
 .navbar-fixed {
