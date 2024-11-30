@@ -7,7 +7,6 @@
 }
 
 body {
-  max-width: 100%;
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
   padding: 50px;
@@ -15,7 +14,6 @@ body {
 
 header {
   position: relative;
-  width: 100%;
   z-index: 1000; /* Pastikan header berada di atas elemen lainnya */
   
 }
