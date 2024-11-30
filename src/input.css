@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Inter", sans-serif;
+  max-width: 100%;
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
   padding-top: 60px;
 }
 
