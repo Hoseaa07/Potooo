@@ -7,15 +7,25 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  position: relative;
+  width: 100%;
+  z-index: 1000; /* Pastikan header berada di atas elemen lainnya */
+  padding-top: 60px;
+}
+
 .navbar-fixed {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
-  @apply bg-white bg-opacity-70 backdrop-blur-sm;
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+  background-color: white; /* Atur warna latar belakang sesuai kebutuhan */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek visual */
+  padding: 10px 0; /* Tambahkan padding untuk menghindari tumpang tindih */
 }
+
+
+
 
 .hamburger-menu {
   @apply my-2 block h-[2px] w-[30px] bg-dark;
