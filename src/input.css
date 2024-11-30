@@ -27,7 +27,7 @@ header {
   width: 100%;
   background-color: white; /* Atur warna latar belakang sesuai kebutuhan */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek visual */
-  padding: 20px 0; /* Tambahkan padding untuk menghindari tumpang tindih */
+  padding: 5px 0; /* Tambahkan padding untuk menghindari tumpang tindih */
 }
 
 
